@@ -2,92 +2,92 @@
 <document>
 <!-- OK: inline -->
 <p>これは<tag>インラインタグ</tag></p>
-<p><tag>インラインタグ</tag>です。</p>
-<p>これは<tag>インラインタグ</tag>です。</p>
+<p><tag>インラインタグ</tag>です</p>
+<p>これは<tag>インラインタグ</tag>です</p>
 
-<p><tag>これは</tag>インラインタグ<tag>です。</tag></p>
-<p>これは<tag>インライン</tag>タグ<tag>です。</tag></p>
-<p><tag>これは</tag>インライン<tag>タグ</tag>です。</p>
-<p>これは<tag>イン</tag>ライン<tag>タグ</tag>です。</p>
+<p><tag>これは</tag>インラインタグ<tag>です</tag></p>
+<p>これは<tag>インライン</tag>タグ<tag>です</tag></p>
+<p><tag>これは</tag>インライン<tag>タグ</tag>です</p>
+<p>これは<tag>イン</tag>ライン<tag>タグ</tag>です</p>
 
-<p><tag1>これは</tag1>インラインタグ<tag2>です。</tag2></p>
-<p>これは<tag1>インライン</tag1>タグ<tag2>です。</tag2></p>
-<p><tag1>これは</tag1>インライン<tag2>タグ</tag2>です。</p>
-<p>これは<tag1>イン</tag1>ライン<tag2>タグ</tag2>です。</p>
+<p><tag1>これは</tag1>インラインタグ<tag2>です</tag2></p>
+<p>これは<tag1>インライン</tag1>タグ<tag2>です</tag2></p>
+<p><tag1>これは</tag1>インライン<tag2>タグ</tag2>です</p>
+<p>これは<tag1>イン</tag1>ライン<tag2>タグ</tag2>です</p>
 
-<p>&lt;これは&gt;<tag>&lt;インラインタグ&gt;</tag>&lt;です。&gt;</p>
-<p>これは<tag     >インラインタグ</tag     >に空白が含まれます。</p>
-<p>これは<tag a="a">インラインタグ</tag>です。</p>
-<p>これは<tag a="a"     >インラインタグ</tag>です。</p>
-<p>これは<tag a="a" b="b" c="c">インラインタグ</tag>です。</p>
-<p>これは<tag c="c" b="b" a="a">インラインタグ</tag>です。</p>
-<p>これは<tag a="a" b="b" c="c">インライン</tag><tag c="c" b="b" a="a">タグ</tag>です。</p>
+<p>&lt;これは&gt;<tag>&lt;インラインタグ&gt;</tag>&lt;です&gt;</p>
+<p>これは<tag     >インラインタグ</tag     >に空白が含まれます</p>
+<p>これは<tag a="a">インラインタグ</tag>です</p>
+<p>これは<tag a="a"     >インラインタグ</tag>です</p>
+<p>これは<tag a="a" b="b" c="c">インラインタグ</tag>です</p>
+<p>これは<tag c="c" b="b" a="a">インラインタグ</tag>です</p>
+<p>これは<tag a="a" b="b" c="c">インライン</tag><tag c="c" b="b" a="a">タグ</tag>です</p>
 
 <p>これは改行を含む
-<tag>インラインタグ</tag>です。</p>
+<tag>インラインタグ</tag>です</p>
 <p>これは改行を含む<tag>インラインタグ</tag>
-です。</p>
+です</p>
 
 <!-- NG: inline -->
-<p>これはブロックタグです。</p>
-<p><tag>これはブロックタグです。</tag></p>
-<p><tag a="a">これはブロックタグです。</tag></p>
-<p><tag a="a" b="b" c="c">これはブロックタグです。</tag></p>
-<p><tag>これは分割されていますが</tag><tag>ブロックタグです。</tag></p>
-<p><tag>これは改行を含むブロックタグです。</tag>
+<p>これはブロックタグです</p>
+<p><tag>これはブロックタグです</tag></p>
+<p><tag a="a">これはブロックタグです</tag></p>
+<p><tag a="a" b="b" c="c">これはブロックタグです</tag></p>
+<p><tag>これは分割されていますが</tag><tag>ブロックタグです</tag></p>
+<p><tag>これは改行を含むブロックタグです</tag>
 </p>
 <p>
-<tag>これは改行を含むブロックタグです。</tag></p>
+<tag>これは改行を含むブロックタグです</tag></p>
 
 <!-- OK: void -->
-<p>これは<void/>空タグです。</p>
-<p>これは<void/>空タグ<void/>です。</p>
-<p><void/>これは<void/>空タグです。<void/></p>
-<p><void/>これは<void/>空タグ<void/>です。</p>
-<p>これは<void/>空<void/>タグ<void/>です。</p>
+<p>これは<void/>空タグです</p>
+<p>これは<void/>空タグ<void/>です</p>
+<p><void/>これは<void/>空タグです<void/></p>
+<p><void/>これは<void/>空タグ<void/>です</p>
+<p>これは<void/>空<void/>タグ<void/>です</p>
 
-<p>&lt;これは/&gt;<void/>&lt;空タグ&gt;です。</p>
-<p>これは<void     />タグに空白を含む空タグです。</p>
-<p>これは<void a="a"/>空タグです。</p>
-<p>これは<void a="a"     />空タグです。</p>
-<p>これは<void a="a" b="b" c="c"/>空タグです。</p>
-<p>これは<void c="c" b="b" a="a"/>空タグです。</p>
+<p>&lt;これは/&gt;<void/>&lt;空タグ&gt;です</p>
+<p>これは<void     />タグに空白を含む空タグです</p>
+<p>これは<void a="a"/>空タグです</p>
+<p>これは<void a="a"     />空タグです</p>
+<p>これは<void a="a" b="b" c="c"/>空タグです</p>
+<p>これは<void c="c" b="b" a="a"/>空タグです</p>
 
 <!-- NG: void -->
-<p>これはブロックタグです。<void/></p>
-<p>これはブロックタグです。<void     /></p>
-<p>これはブロックタグです。<void/><void/></p>
-<p><void/><void/>これはブロックタグです。</p>
-<p><void/>これはブロックタグです。<void/></p>
-<p><void    />これはブロックタグです。<void     /></p>
+<p>これはブロックタグです<void/></p>
+<p>これはブロックタグです<void     /></p>
+<p>これはブロックタグです<void/><void/></p>
+<p><void/><void/>これはブロックタグです</p>
+<p><void/>これはブロックタグです<void/></p>
+<p><void    />これはブロックタグです<void     /></p>
 
 <!-- OK: inline + void -->
-<p>これは<tag>インラインタグです。</tag><void/></p>
-<p><tag>これは</tag>インラインタグです。<void/></p>
-<p><tag>これは</tag>インラインタグ<void/>です。</p>
-<p><void/>これは<tag>インラインタグです。</tag><void/></p>
+<p>これは<tag>インラインタグです</tag><void/></p>
+<p><tag>これは</tag>インラインタグです<void/></p>
+<p><tag>これは</tag>インラインタグ<void/>です</p>
+<p><void/>これは<tag>インラインタグです</tag><void/></p>
 
-<p><tag a="a">これは</tag>インラインタグ<void a="a"/>です。</p>
-<p><tag     >これは</tag>インラインタグ<void     />です。</p>
+<p><tag a="a">これは</tag>インラインタグ<void a="a"/>です</p>
+<p><tag     >これは</tag>インラインタグ<void     />です</p>
 
 <!-- NG: inline + void -->
-<p><tag>これはブロックタグです。</tag><void/></p>
-<p><void/><tag>これはブロックタグです。</tag></p>
+<p><tag>これはブロックタグです</tag><void/></p>
+<p><void/><tag>これはブロックタグです</tag></p>
 
 <!-- OK: grandchild -->
-<p>これは<tag><void/></tag>インラインタグです。</p>
-<p>これは<tag><tag>インラインタグです。</tag></tag></p>
-<p>これは<tag><tag><tag>インラインタグです。</tag></tag></tag></p>
-<p>これは<tag>インライン<tag>タグです。</tag></tag></p>
-<p>これは<tag>複雑な<tag>インライン</tag>タグです。</tag></p>
-<p>これは<tag>複雑な<tag>インライン</tag>タグ</tag>です。</p>
+<p>これは<tag><void/></tag>インラインタグです</p>
+<p>これは<tag><tag>インラインタグです</tag></tag></p>
+<p>これは<tag><tag><tag>インラインタグです</tag></tag></tag></p>
+<p>これは<tag>インライン<tag>タグです</tag></tag></p>
+<p>これは<tag>複雑な<tag>インライン</tag>タグです</tag></p>
+<p>これは<tag>複雑な<tag>インライン</tag>タグ</tag>です</p>
 
-<p>これは<tag a="a"><tag a="a">インラインタグです。</tag></tag></p>
-<p>これは<tag a="a" b="b" c="c"><tag a="a" b="b" c="c">インラインタグです。</tag></tag></p>
+<p>これは<tag a="a"><tag a="a">インラインタグです</tag></tag></p>
+<p>これは<tag a="a" b="b" c="c"><tag a="a" b="b" c="c">インラインタグです</tag></tag></p>
 
 <!-- NG: grandchild -->
-<p>これはブロックタグです。<tag><void/></tag></p>
-<p><void/>これはブロックタグです。<void/></p>
-<p><tag><tag><tag>これはブロックタグです。</tag></tag></tag></p>
+<p>これはブロックタグです<tag><void/></tag></p>
+<p><void/>これはブロックタグです<void/></p>
+<p><tag><tag><tag>これはブロックタグです</tag></tag></tag></p>
 
 </document>
